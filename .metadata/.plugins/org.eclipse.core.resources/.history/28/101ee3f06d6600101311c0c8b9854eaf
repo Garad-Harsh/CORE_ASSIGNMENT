@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Demo19 {
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number 1: ");
+        int a = sc.nextInt();
+        System.out.print("Enter number 2: ");
+        int b = sc.nextInt();
+        System.out.print("Enter number 3: ");
+        int c = sc.nextInt();
+       
+
+        // Nested if-else to check if all are odd
+        if (a % 2 != 0) {
+            if (b % 2 != 0) {
+                if (c % 2 != 0) {
+                    System.out.println("Odd Chain");
+                }
+            }
+        }
+    }
+}
